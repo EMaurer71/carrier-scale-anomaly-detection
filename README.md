@@ -23,21 +23,13 @@ Repository Contents
 📘 Notebook
 auth_anomaly_detection.ipynb  
 A fully documented, 8‑section notebook that:
-
 Loads and cleans authentication logs
-
 Generates synthetic carrier‑scale IP churn
-
 Performs feature engineering
-
 Runs K‑Means and DBSCAN
-
 Projects clusters into PCA space
-
 Scores events using a composite risk model
-
 Outputs all charts and scored logs
-
 Runs top‑to‑bottom in Jupyter or VS Code.
 
 📁 Data Files
@@ -67,14 +59,21 @@ synthetic_auth_logs.csv — synthetic dataset simulating carrier‑scale IP chur
 The notebook generates five production‑quality charts:
 
 IP Variance Visualization
+![IP Variance Visualization](figures/01_ip_variance.png)
 
 Elbow + Silhouette Analysis
+![Elbow + Silhouette Analysis](figures/02_elbow_silhoutte.png)
+
 
 PCA Cluster Projection (K‑Means vs DBSCAN)
+![PCA Cluster Projection](figures/03_cluster_pca.png)
 
 Anomaly Breakdown Heatmap
+![Anomaly Breakdown Heatmap](figures/04_anomaly_breakdown.png)
+
 
 Risk Score Distribution + SOC Severity Tiers
+![Risk Score Distribution](figures/05_risk_scores.png)
 
 All figures are saved to /figures.
 
